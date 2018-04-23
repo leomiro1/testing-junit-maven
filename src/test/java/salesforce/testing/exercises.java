@@ -55,7 +55,7 @@ public class exercises extends AbstractSetUpAndDown {
 	        	{
 	            	String text = url.getAttribute("href");
 	            	if (text.toLowerCase().toString().contains(".ar"))
-	            		System.out.println("página " + (i+1) + " de la búsqueda - " + text); 
+	            		System.out.println("pagina " + (i+1) + " de la busqueda - " + text); 
 	        	}
 	    	
 	    	// Go to the next page
@@ -125,12 +125,12 @@ public class exercises extends AbstractSetUpAndDown {
 		// if list is empty then there are no side urls to show, otherwise I show them
 		if (urls.size() == 0) {
 			System.out.println("\n");
-			System.out.println("no se hallaron urls orgánicas con la keyword " + keyWord + "\n");
+			System.out.println("no se hallaron urls organicas con la keyword " + keyWord + "\n");
 		}	
 		else {
 			// Listing the positioning keywords
 			System.out.println("\n");
-			System.out.println("URLs orgánicas:");
+			System.out.println("URLs organicas:");
 			System.out.println("***************");
 			
 			int i = 1;
@@ -140,7 +140,7 @@ public class exercises extends AbstractSetUpAndDown {
 	    		
             	String text = url.getAttribute("href");
             	if (text.toLowerCase().toString().contains(keyWord.toLowerCase()))
-            		System.out.println("link en posición " + i + " de la búsqueda: " + text);
+            		System.out.println("link en posicion " + i + " de la busqueda: " + text);
             	i++;
         	}
 
