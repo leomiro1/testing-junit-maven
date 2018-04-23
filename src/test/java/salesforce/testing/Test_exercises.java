@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class exercises extends AbstractSetUpAndDown {
+public class Test_exercises extends AbstractSetUpAndDown {
 
 	@Test
 	public void showAdsUrlsInConsole() {
